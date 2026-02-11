@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="logo">Shivani<span>.</span></div>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <p class="role">Web Developer</p>
+        <h1>
+            Hi, I'm <span>Shivani</span><br>
+            A Student / Web Developer<br>
+            from India
+        </h1>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/myphoto1.png" alt="Shivani Profile Photo">
+    </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section class="about" id="about">
+
+    <div class="about-left">
+        <img src="images/myphoto.png" alt="About Shivani">
+    </div>
+
+    <div class="about-right">
+        <h2>About Me</h2>
+
+        <p class="about-desc">
+            Computer Science undergraduate with experience as a Software Testing Intern and a strong interest in Web Development. 
+            Skilled in HTML, CSS, JavaScript, with backend and database exposure in Java and MySQL. 
+            Seeking a Web Development Internship to apply frontend skills and build user-focused web solutions.
+        </p>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <span class="tab active" onclick="showTab('skills', this)">Skills</span>
+            <span class="tab" onclick="showTab('experience', this)">Experience</span>
+            <span class="tab" onclick="showTab('education', this)">Education</span>
+        </div>
+
+        <!-- Tab Contents -->
+        <div class="tab-wrapper">
+
+            <!-- Skills -->
+            <div class="tab-content active" id="skills">
+                <p><strong>Web Development</strong><br>HTML, CSS, and JavaScript</p>
+                <p><strong>Programming Languages</strong><br>C++, Java, Python</p>
+                <p><strong>Database Management</strong><br>MySQL, SQL</p>
+            </div>
+
+            <!-- Experience -->
+            <div class="tab-content" id="experience">
+                <p>
+                    <strong>June 2025 – September 2025</strong><br>
+                    Software Testing Intern at CDPL
+                </p>
+                <p>
+                    <strong>January 2026 – Present</strong><br>
+                    Web Developer at Zynoxis Solution LLP
+                </p>
+            </div>
+
+            <!-- Education -->
+            <div class="tab-content" id="education">
+                <p>
+                    <strong>2024 – Present (Second Year)</strong><br>
+                    B.Sc. in Computer Science, Bhavan’s College
+                </p>
+                <p>
+                    <strong>Online Learning</strong><br>
+                    Frontend Development
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="projects" id="projects">
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <img src="images/project1.png" alt="Portfolio Website">
+            <h3>Portfolio Website</h3>
+            <p>Personal responsive portfolio built using HTML, CSS, and JavaScript.</p>
+            <div class="project-links">
+                <a href="#" class="btn-outline">Live</a>
+                <a href="#" class="btn-outline">Code</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project2.png" alt="Landing Page">
+            <h3>Landing Page</h3>
+            <p>Modern landing page design with clean layout and animations.</p>
+            <div class="project-links">
+                <a href="#" class="btn-outline">Live</a>
+                <a href="#" class="btn-outline">Code</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="images/project3.png" alt="Web Application">
+            <h3>Web Application</h3>
+            <p>
+                Responsive web application built using HTML, CSS, and JavaScript
+                with interactive features.
+            </p>
+            <div class="project-links">
+                <a href="#" class="btn-outline">Live</a>
+                <a href="#" class="btn-outline">Code</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact">
+
+    <div class="contact-info">
+        <h2>Contact Me</h2>
+
+        <p class="info">📧 contact@example.com</p>
+        <p class="info">📞 0123456789</p>
+
+        <div class="social-icons">
+            <a href="#">🌐</a>
+            <a href="#">🐦</a>
+            <a href="#">📸</a>
+            <a href="#">💼</a>
+        </div>
+        <br>
+        <button class="btn">Download CV</button>
+    </div>
+
+    <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="6"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <p>© 2026 <span>Shivani</span>. All rights reserved.</p>
+
+    <div class="footer-social">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Instagram</a>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="portfolio.js"></script>
+
+</body>
+</html>
