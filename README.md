@@ -1,4 +1,4 @@
-## OIBSIP_WebDev_Task2 - Portfolio Website
+# OIBSIP_WebDev_Task2 - Portfolio Website
 
 ## Objective
 Create a personal portfolio website using HTML, CSS, and basic JavaScript.
